@@ -4,6 +4,8 @@ POC 集合 - 包含文件、網址和相關資源
 
 ## 📋 POC 清單
 
+<div align="center">
+
 | 名稱 | 標籤 |
 |------|------|
 | [Face Swap 服務](./pocs/FaceSwap.md) | AI, 人臉識別, 內容製作 |
@@ -18,6 +20,8 @@ POC 集合 - 包含文件、網址和相關資源
 | [Fact Graph 稅法知識圖譜](./pocs/FactGraph.md) | 知識圖譜, 稅法, IRS, 法律科技 |
 | [Neo4j 知識圖譜 RAG 系統](./pocs/Neo4jRAG.md) | RAG, 知識圖譜, Neo4j, 語義搜尋 |
 | [Open Notebook 研究筆記系統](./pocs/OpenNotebook.md) | 研究筆記, 知識管理, RAG, 多模型 |
+
+</div>
 
 ## 使用說明
 
