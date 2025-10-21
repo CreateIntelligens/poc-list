@@ -5,7 +5,7 @@
 
 ## 使用方法
 1. 連接 VPN（必要）
-2. 訪問 http://10.9.0.32:8897（內部網路）
+2. 訪問 http://10.9.0.32:8897（內網）
 3. 瀏覽稅法知識圖譜結構
 4. 使用 API 查詢特定稅法條文或關聯
 5. 支援 JavaScript 和 JVM 語言（Java, Kotlin, Scala, Clojure）整合
@@ -52,24 +52,8 @@
 - 標籤：知識圖譜, 稅法, IRS, 法律科技
 
 ## 備註
-- **技術架構**：
-  - 語言：Scala (主要)
-  - 測試框架：ScalaTest
-  - XML 處理：scala-xml
-  - 支援：JavaScript, Java, Kotlin, Clojure
-- **版本資訊**：
-  - 當前版本：Fact Graph 3.1
-  - 更新頻率：即時同步（來自私有倉庫）
-  - 主要變更：參見 fact-graph-3.1-adr.md
-- **法律依據**：
-  - Source Code Harmonization Act (2024)
-  - OMB Memorandum M-16-21
-  - Federal Acquisition Regulation (FAR) Part 27
-  - Digital Government Strategy (2012)
-  - FITARA (2014)
-  - E-Government Act (2002)
-  - Clinger-Cohen Act (1996)
 - 主要用於美國稅法建模
 - 支援稅法條文關聯查詢
 - 適用於稅務軟體和法律科技開發
 - 持續維護和更新中
+- 由美國 IRS 開發和維護

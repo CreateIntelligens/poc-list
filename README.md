@@ -20,6 +20,12 @@ POC 集合 - 包含文件、網址和相關資源
 | [Fact Graph 稅法知識圖譜](./pocs/FactGraph.md) | 知識圖譜, 稅法, IRS, 法律科技 |
 | [Neo4j 知識圖譜 RAG 系統](./pocs/Neo4jRAG.md) | RAG, 知識圖譜, Neo4j, 語義搜尋 |
 | [Open Notebook 研究筆記系統](./pocs/OpenNotebook.md) | 研究筆記, 知識管理, RAG, 多模型 |
+| [SQLBot 智能問數系統](./pocs/SQLBot.md) | Text2SQL, RAG, 智能問數, 資料查詢 |
+| [Super Agent Party 3D AI 桌寵系統](./pocs/SuperAgentParty.md) | AI代理, 桌面寵物, VRM, 多模態 |
+| [AI 虛擬人客服聊天室系統](./pocs/AIVirtualHuman.md) | AI客服, 虛擬人, 語音合成, 智能對話 |
+| [ComfyUI 影片生成器](./pocs/ComfyUIVideoGenerator.md) | 影片生成, ComfyUI, AI影片, 圖片轉影片 |
+| [Puter 網路作業系統](./pocs/Puter.md) | 網路作業系統, 雲端儲存, Web OS, 開發平台 |
+| [Win32.run Windows XP 瀏覽器版](./pocs/Win32Run.md) | Windows XP, 瀏覽器OS, 懷舊, 復古 |
 
 </div>
 

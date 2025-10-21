@@ -5,7 +5,7 @@
 
 ## 使用方法
 1. 連接 VPN（必要）
-2. 訪問 http://10.9.0.32:8898/（內部網路）
+2. 訪問 http://10.9.0.32:8898/（內網）
 3. 在聊天界面輸入問題
 4. 選擇搜尋方式：
    - **RAG 回答**（推薦）：AI 整理後的智能回答
@@ -52,38 +52,18 @@
 ## 成本效益
 - 智能檢索：向量搜尋比傳統關鍵字更準確
 - RAG 技術：結合檢索和生成，提供高品質回答
-- 圖資料庫：Neo4j 支援複雜關聯查詢
-- 容器化部署：Docker Compose 一鍵啟動
-- 即時開發：程式碼掛載，修改立即生效
+- 圖資料庫：支援複雜關聯查詢
 
 ## 狀態
 - 標籤：RAG, 知識圖譜, Neo4j, 語義搜尋, Gemini
 
 ## 備註
-- **技術架構**：
-  - 圖資料庫：Neo4j 5.15 + 向量索引
-  - 後端：FastAPI + Python 3.11
-  - AI 模型：Google Gemini 2.0-flash (LLM + Embedding)
-  - Embedding：text-embedding-004 (768 維)
-  - 前端：HTML/JavaScript ES6
-  - 反向代理：Nginx Alpine
-  - 容器化：Docker Compose
 - **系統流程**：
   1. 用戶輸入問題
-  2. 生成問題向量（Gemini Embedding）
-  3. Neo4j 向量索引搜尋相似 QA
+  2. 生成問題向量
+  3. 向量索引搜尋相似 QA
   4. (RAG 模式) LLM 整理生成最終回答
-  5. 回傳結果 + 相關資料 + 性能指標
-- **節點結構**：
-  - Question 節點：問題文本 + 向量
-  - Answer 節點：答案內容
-  - 關聯：Question → Answer
-- **API 端點**：
-  - `/api/rag` - RAG 智能回答
-  - `/api/semantic_search` - 語義搜尋
-  - `/api/qa/{id}` - 取得單筆 QA
-  - `/api/stats` - 知識庫統計
+  5. 回傳結果和相關資料
 - 支援 CSV 批次資料導入
-- 提供效能指標（Embedding/搜尋/LLM 耗時）
-- 可調整搜尋參數（limit, threshold）
-- 原始碼掛載開發模式
+- 提供效能指標（處理時間等）
+- 可調整搜尋參數

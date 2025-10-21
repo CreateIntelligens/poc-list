@@ -5,7 +5,7 @@
 
 ## 使用方法
 1. 連接 VPN（必要）
-2. 訪問 http://10.9.0.32:8899/（內部網路）
+2. 訪問 http://10.9.0.32:8899/（內網）
 3. 建立新筆記本或選擇現有筆記本
 4. 上傳研究資料（PDF、影片、音訊、網頁等）
 5. 使用三欄介面：
@@ -68,33 +68,11 @@
 - 標籤：研究筆記, 知識管理, RAG, 多模型
 
 ## 備註
-- **技術架構**：
-  - 前端：Next.js + React
-  - 後端：FastAPI + Python
-  - 資料庫：SurrealDB
-  - AI 框架：LangChain
-  - 多模型支援：Esperanto 函式庫
-  - 文件處理：Docling
-  - 播客生成：Podcast Creator
-  - 背景任務：Surreal Commands
-- **AI 提供商支援**（16+）：
-  - LLM：OpenAI, Anthropic, Groq, Google GenAI, Vertex AI, Ollama, Perplexity, Azure OpenAI, Mistral, DeepSeek, xAI, OpenRouter, LM Studio
-  - Embedding：OpenAI, Google GenAI, Vertex AI, Ollama, Azure OpenAI, Mistral, Voyage
-  - 語音轉文字：OpenAI, Groq, ElevenLabs
-  - 文字轉語音：OpenAI, Google GenAI, Vertex AI, ElevenLabs
+- **AI 提供商支援**：支援 16+ 種主流 AI 服務（OpenAI、Anthropic、Google、Ollama 等）
 - **內容類型支援**：
-  - 文件：PDF, Office 文件
-  - 媒體：影片, 音訊
+  - 文件：PDF、Office 文件
+  - 媒體：影片、音訊
   - 網頁：URL 抓取
   - 其他：任何可解析的文字內容
-- **部署選項**：
-  - Docker 單容器版本（推薦）
-  - Docker Compose 多容器版本
-  - 本地開發環境
-  - 雲端部署（任何支援 Docker 的平台）
-- 埠號：
-  - 8502：Web 介面
-  - 5055：API 後端（必須）
 - 支援多語言介面
-- 完整的 REST API 供自動化整合
 - 持續更新和社群支援

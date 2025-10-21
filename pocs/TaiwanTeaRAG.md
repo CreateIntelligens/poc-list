@@ -37,7 +37,6 @@
 - 標籤：AI, RAG, 知識問答, 台灣茶葉, LlamaIndex
 
 ## 備註
-- 使用 LlamaIndex 框架建構 RAG 系統
-- 採用 Groq LLM 和 HuggingFace 嵌入模型
 - 知識庫會自動更新和索引
 - 支援繁體中文問答
+- 提供準確的台灣茶葉相關資訊

@@ -5,7 +5,7 @@ AI 影片轉錄和摘要工具，支援 YouTube、Bilibili、TikTok 等 30+ 平�
 
 ## 使用方法
 1. 連接 VPN（必要）
-2. 訪問 http://10.9.0.32:8893/（內部網路）
+2. 訪問 http://10.9.0.32:8893/（內網）
 3. 在輸入框貼上影片連結（支援 YouTube、Bilibili、TikTok 等）
 4. 選擇希望產生摘要的語言
 5. 點擊「開始」按鈕
@@ -50,20 +50,7 @@ AI 影片轉錄和摘要工具，支援 YouTube、Bilibili、TikTok 等 30+ 平�
 - 標籤：AI轉錄, 影片處理, 語音識別, Whisper, 多語言
 
 ## 備註
-- **技術架構**：
-  - 後端：FastAPI + Python
-  - 轉錄引擎：Faster-Whisper
-  - 影片下載：yt-dlp
-  - AI 摘要：OpenAI API (GPT-4o)
-  - 前端：HTML5 + JavaScript
-  - 容器化：Docker
-- **Whisper 模型選項**：
-  - tiny：快速，低記憶體（39M 參數）
-  - base：平衡，推薦（74M 參數）
-  - small：較準確（244M 參數）
-  - medium：高準確度（769M 參數）
-  - large：最高準確度（1550M 參數）
 - 支援任意長度影片
 - 自動暫存檔案管理
 - 提供即時處理進度顯示
-- 需要 OpenAI API Key 啟用完整功能（摘要/翻譯）
+- 提供多種模型選項（快速、平衡、高準確度等）

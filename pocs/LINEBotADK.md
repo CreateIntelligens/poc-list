@@ -55,20 +55,7 @@
 - 標籤：LINE Bot, AI助手, Gemini, 多功能服務
 
 ## 備註
-- **核心技術**：
-  - AI 模型：Google ADK, Gemini 2.0 Flash
-  - 後端：Python FastAPI
-  - 容器化：Docker
-- **整合服務**：
-  - 天氣資料：wttr.in
-  - 時間資訊：worldtimeapi.org
-  - 短網址：aiurl.tw
-  - 知識庫：FastGPT
-  - 搜尋：Google Programmable Search
-  - 運勢：API Ninjas
-  - 梗圖：ImgFlip
-  - 塔羅牌：Labyrintos Academy Tarot API
-  - 影片生成：ComfyUI
 - 支援繁體中文對話
 - 具備對話記憶和上下文理解
 - 主動執行，減少確認步驟
+- 整合多種實用服務（天氣、時間、搜尋、運勢、梗圖、塔羅牌、影片生成等）
