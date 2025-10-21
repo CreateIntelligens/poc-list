@@ -1,0 +1,101 @@
+# POC: Open Notebook 開源研究筆記系統
+
+## 概述
+隱私優先、多模型支援的開源研究筆記系統，Google Notebook LM 的完整替代方案
+
+## 使用方法
+1. 連接 VPN（必要）
+2. 訪問 http://10.9.0.32:8899/（內部網路）
+3. 建立新筆記本或選擇現有筆記本
+4. 上傳研究資料（PDF、影片、音訊、網頁等）
+5. 使用三欄介面：
+   - **來源（Sources）**：管理所有研究資料
+   - **筆記（Notes）**：手動或 AI 生成筆記
+   - **對話（Chat）**：與 AI 進行上下文對話
+6. 執行內容轉換或生成專業播客
+7. 使用全文或向量搜尋查找資訊
+
+**重要提示**：此服務需要連接 VPN 才能訪問內部網路 (10.9.0.32)
+
+**使用建議**：
+- 建議為不同研究主題建立獨立筆記本
+- 利用內容轉換功能自動提取洞察
+- 播客生成支援 1-4 個說話者，可自訂角色設定
+- 使用三級上下文控制精確調整 AI 回應
+
+## 主要功能
+- **隱私優先**：資料完全在你的掌控之下，無雲端依賴
+- **多筆記本組織**：無縫管理多個研究專案
+- **通用內容支援**：PDF、影片、音訊、網頁、Office 文件等
+- **多模型 AI 支援**：支援 16+ 提供商（OpenAI、Anthropic、Ollama、Google、LM Studio 等）
+- **專業播客生成**：進階多說話者播客，支援自訂角色設定
+- **智能搜尋**：跨所有內容的全文和向量搜尋
+- **上下文感知對話**：由研究資料驅動的 AI 對話
+- **AI 輔助筆記**：自動生成洞察或手動撰寫筆記
+- **推理模型支援**：完整支援 DeepSeek-R1、Qwen3 等思考型模型
+- **內容轉換**：強大的可自訂動作用於摘要和提取洞察
+- **完整 REST API**：程式化存取所有功能
+- **可選密碼保護**：公開部署的安全認證
+- **精細上下文控制**：精確選擇與 AI 分享的內容
+- **引用功能**：帶有來源引用的答案
+
+## 應用場景
+- 學術研究和文獻整理
+- 專案研究和知識管理
+- 內容創作和素材收集
+- 學習筆記和知識建構
+- 播客和音訊內容製作
+- 多語言研究資料整合
+- 團隊知識共享（透過 API）
+- 個人知識庫建立
+
+## 相關資源
+- **服務地址**：http://10.9.0.32:8899/（內部，需 VPN）
+- **API 文檔**：http://10.9.0.32:5055/docs
+- **其他資源**：
+  - 官網：https://www.open-notebook.ai
+  - GitHub：https://github.com/lfnovo/open-notebook
+  - Discord 社群：https://discord.gg/37XJPXfz2w
+  - 安裝助手 GPT：提供逐步安裝指導
+
+## 成本效益
+- 完全開源：MIT 授權，免費使用
+- 隱私保護：資料完全掌控，不受雲端限制
+- 成本控制：選擇更便宜的 AI 提供商或本地執行（Ollama）
+- 無供應商鎖定：隨時切換提供商、任意部署、擁有資料
+- 無限自訂：修改、擴展、整合自如
+
+## 狀態
+- 標籤：研究筆記, 知識管理, RAG, 多模型, 開源
+
+## 備註
+- **技術架構**：
+  - 前端：Next.js + React
+  - 後端：FastAPI + Python
+  - 資料庫：SurrealDB
+  - AI 框架：LangChain
+  - 多模型支援：Esperanto 函式庫
+  - 文件處理：Docling
+  - 播客生成：Podcast Creator
+  - 背景任務：Surreal Commands
+- **AI 提供商支援**（16+）：
+  - LLM：OpenAI, Anthropic, Groq, Google GenAI, Vertex AI, Ollama, Perplexity, Azure OpenAI, Mistral, DeepSeek, xAI, OpenRouter, LM Studio
+  - Embedding：OpenAI, Google GenAI, Vertex AI, Ollama, Azure OpenAI, Mistral, Voyage
+  - 語音轉文字：OpenAI, Groq, ElevenLabs
+  - 文字轉語音：OpenAI, Google GenAI, Vertex AI, ElevenLabs
+- **內容類型支援**：
+  - 文件：PDF, Office 文件
+  - 媒體：影片, 音訊
+  - 網頁：URL 抓取
+  - 其他：任何可解析的文字內容
+- **部署選項**：
+  - Docker 單容器版本（推薦）
+  - Docker Compose 多容器版本
+  - 本地開發環境
+  - 雲端部署（任何支援 Docker 的平台）
+- 埠號：
+  - 8502：Web 介面
+  - 5055：API 後端（必須）
+- 支援多語言介面
+- 完整的 REST API 供自動化整合
+- 持續更新和社群支援
