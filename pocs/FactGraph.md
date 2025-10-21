@@ -4,11 +4,10 @@
 生產級知識圖譜系統，專門建模美國國內稅收法典（Internal Revenue Code）及相關稅法
 
 ## 使用方法
-1. 連接 VPN（必要）
-2. 訪問 http://10.9.0.32:8897（內網）
-3. 瀏覽稅法知識圖譜結構
-4. 使用 API 查詢特定稅法條文或關聯
-5. 支援 JavaScript 和 JVM 語言（Java, Kotlin, Scala, Clojure）整合
+1. 訪問（內網） http://10.9.0.32:8897
+2. 瀏覽稅法知識圖譜結構
+3. 使用 API 查詢特定稅法條文或關聯
+4. 支援 JavaScript 和 JVM 語言（Java, Kotlin, Scala, Clojure）整合
 
 **重要提示**：此服務需要連接 VPN 才能訪問內部網路 (10.9.0.32)
 
@@ -36,7 +35,7 @@
 - 自動化稅務諮詢系統
 
 ## 相關資源
-- **服務地址**：http://10.9.0.32:8897（內部，需 VPN）
+- **服務地址（內網）**：http://10.9.0.32:8897
 - **其他資源**：
   - GitHub: IRS Fact Graph (公開倉庫)
   - 文檔: ONBOARDING.md, CONTRIBUTING.md
