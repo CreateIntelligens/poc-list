@@ -9,6 +9,8 @@
 3. 使用 API 查詢特定稅法條文或關聯
 4. 支援 JavaScript 和 JVM 語言（Java, Kotlin, Scala, Clojure）整合
 
+![alt text](image-4.png)
+
 **重要提示**：此服務需要連接 VPN 才能訪問內部網路 (10.9.0.32)
 
 **免責聲明**：
