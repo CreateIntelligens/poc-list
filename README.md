@@ -14,7 +14,7 @@ POC 集合 - 包含文件、網址和相關資源
 | [台灣道路施工地圖](./pocs/TaiwanRoadConstructionMap.md) | 地圖, 施工資訊, 政府開放資料 |
 | [PyRIT AI 安全測試框架](./pocs/PyRITSecurityTesting.md) | AI安全, 測試框架, 滲透測試 |
 | [LINE Bot 多功能智慧助手](./pocs/LINEBotADK.md) | LINE Bot, AI助手, Gemini, 多功能服務 |
-| [LINE 對話摘要助手](./pocs/LINE-Summary.md) | LINE, 摘要, 客服, 生產力工具 |
+| [群組摘要王](./pocs/LINE-Summary.md) | LINE, 摘要, LLM, 生圖, 協作工具 |
 | [AI 影片轉錄器](./pocs/AIVideoTranscriber.md) | AI轉錄, 影片處理, 語音識別, Whisper |
 | [VitalLens 生命體徵檢測器](./pocs/VitalLens.md) | 生命體徵, rPPG, 心率檢測, 非接觸式 |
 | [Expo Games 互動遊戲平台](./pocs/ExpoGames.md) | 互動遊戲, 情緒識別, 手勢識別, AI遊戲 |
