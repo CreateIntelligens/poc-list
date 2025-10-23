@@ -43,7 +43,6 @@
 - **服務地址（內網）**：https://10.9.0.32:8894/
 - **API 文檔**：https://10.9.0.32:8894/docs
 - **其他資源**：
-  - GitHub: https://github.com/Rouast-Labs/vitallens-python
   - VitalLens Python API
 
 ## 成本效益

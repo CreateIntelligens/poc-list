@@ -38,7 +38,6 @@
 
 ## 相關資源
 - **服務地址**：http://10.9.0.35:1312/
-- **GitHub**：https://github.com/CreateIntelligens/gpu-hot
 - **API 端點**：/api/gpu-data（JSON 格式 GPU 指標）
 - **WebSocket API**：即時數據推送支援
 

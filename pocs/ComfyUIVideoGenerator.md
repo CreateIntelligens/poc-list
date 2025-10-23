@@ -55,7 +55,6 @@
 - **服務地址（內網）**：http://10.9.0.35:5005/
 - **API 文檔**：/api/generate, /api/task/{task_id}, /api/queue
 - **其他資源**：
-  - GitHub：https://github.com/CreateIntelligens/wan2.2_image2video
   - 基於 ComfyUI 工作流
 
 ## 成本效益

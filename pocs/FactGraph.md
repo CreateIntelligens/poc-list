@@ -39,7 +39,6 @@
 ## 相關資源
 - **服務地址（內網）**：http://10.9.0.32:8897
 - **其他資源**：
-  - GitHub: IRS Fact Graph (公開倉庫)
   - 文檔: ONBOARDING.md, CONTRIBUTING.md
   - ADR: Fact Graph 3.1 架構決策記錄
 

@@ -49,7 +49,6 @@
 - **服務地址（內網）**：http://10.9.0.35.nip.io:4100/
 - **官方網站**：https://puter.com
 - **其他資源**：
-  - GitHub：https://github.com/HeyPuter/puter
   - App Store：提供各種應用程式
   - CLI 工具：命令列介面
   - 開發者文檔：完整 API 文檔

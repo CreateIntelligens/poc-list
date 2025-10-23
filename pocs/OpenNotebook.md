@@ -30,7 +30,6 @@ Open Notebook 是一個隱私優先的研究筆記平台，協助團隊在自有
 ## 相關資源
 - 服務地址(內網)：http://10.9.0.32:8899/
 - 官網：https://www.open-notebook.ai
-- GitHub：https://github.com/lfnovo/open-notebook
 - 社群支援：Discord(https://discord.gg/37XJPXfz2w)
 
 ## 成本效益

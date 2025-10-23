@@ -35,7 +35,6 @@ AI 影片轉錄和摘要工具，支援 YouTube、Bilibili、TikTok 等 30+ 平�
 ## 相關資源
 - **服務地址（內網）**：http://10.9.0.32:8893/
 - **其他資源**：
-  - GitHub: https://github.com/wendy7756/AI-Video-Transcriber
   - 基於 yt-dlp、Faster-Whisper、OpenAI API
 
 ## 成本效益

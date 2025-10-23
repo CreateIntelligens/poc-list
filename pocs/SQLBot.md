@@ -42,7 +42,6 @@
 - **服務地址（內網）**：http://10.9.0.35:8040/#/chat/index
 - **MCP 服務**：http://10.9.0.35:8041/
 - **其他資源**：
-  - GitHub：https://github.com/CreateIntelligens/SQLBot
   - 1Panel 應用商店快速部署
   - 支援離線安裝包
 

@@ -30,7 +30,6 @@
 ## 相關資源
 - **服務地址**：https://tbdavid2019.github.io/tw_road_fix_map/
 - **其他資源**：
-  - GitHub: https://github.com/tbdavid2019/tw_road_fix_map
   - 參考專案: https://github.com/TKaiC666/Taichung_Road_Construction_Map
 
 ## 成本效益

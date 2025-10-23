@@ -49,7 +49,6 @@
 - **服務地址**：http://147.5gao.ai:3005/
 - **官方網站**：https://win32.run
 - **其他資源**：
-  - GitHub：https://github.com/ducbao414/win32.run
   - 完整開源專案
   - 活躍社群支援
 
