@@ -30,7 +30,7 @@ POC 集合 - 包含文件、網址和相關資源
 | 20 | [Puter 網路作業系統](./pocs/Puter.md) | 網路作業系統, 雲端儲存, Web OS, 開發平台 |
 | 21 | [Win32.run Windows XP 瀏覽器版](./pocs/Win32Run.md) | Windows XP, 瀏覽器OS, 懷舊, 復古 |
 | 22 | [GPU Hot 即時監控系統](./pocs/GpuHot.md) | GPU監控, 即時監控, 叢集管理, 性能追蹤, NVIDIA |
-| 23 | [Wili Docs 內部協作筆記](./pocs/WiliDocs.md) | 文件協作, 知識管理, Markdown, 內部共享 |
+| 23 | [Wiki Docs 內部協作筆記](./pocs/WikiDocs.md) | 文件協作, 知識管理, Markdown, 內部共享 |
 
 
 </div>
