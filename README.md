@@ -22,7 +22,7 @@ POC 集合 - 包含文件、網址和相關資源
 | 12 | [Expo Games 互動遊戲平台](./pocs/ExpoGames.md) | 互動遊戲, 情緒識別, 手勢識別, AI遊戲 |
 | 13 | [Fact Graph 稅法知識圖譜](./pocs/FactGraph.md) | 知識圖譜, 稅法, IRS, 法律科技 |
 | 14 | [Neo4j 知識圖譜 RAG 系統](./pocs/Neo4jRAG.md) | RAG, 知識圖譜, Neo4j, 語義搜尋 |
-| 15 | [Open Notebook 研究筆記系統](./pocs/OpenNotebook.md) | 研究筆記, 知識管理, RAG, 多模型 |
+| 15 | [Open Notebook 研究筆記系統](./pocs/OpenNotebook.md) | 研究筆記, 知識管理, 多模型, 資料主權, 播客 |
 | 16 | [SQLBot 智能問數系統](./pocs/SQLBot.md) | Text2SQL, RAG, 智能問數, 資料查詢 |
 | 17 | [Super Agent Party 3D AI 桌寵系統](./pocs/SuperAgentParty.md) | AI代理, 桌面寵物, VRM, 多模態 |
 | 18 | [AI 虛擬人客服聊天室系統](./pocs/AIVirtualHuman.md) | AI客服, 虛擬人, 語音合成, 智能對話 |
@@ -30,6 +30,7 @@ POC 集合 - 包含文件、網址和相關資源
 | 20 | [Puter 網路作業系統](./pocs/Puter.md) | 網路作業系統, 雲端儲存, Web OS, 開發平台 |
 | 21 | [Win32.run Windows XP 瀏覽器版](./pocs/Win32Run.md) | Windows XP, 瀏覽器OS, 懷舊, 復古 |
 | 22 | [GPU Hot 即時監控系統](./pocs/GpuHot.md) | GPU監控, 即時監控, 叢集管理, 性能追蹤, NVIDIA |
+| 23 | [Wili Docs 內部協作筆記](./pocs/WiliDocs.md) | 文件協作, 知識管理, Markdown, 內部共享 |
 
 
 </div>
