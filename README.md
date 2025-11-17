@@ -31,7 +31,8 @@ POC 集合 - 包含文件、網址和相關資源
 | 21 | [Win32.run Windows XP 瀏覽器版](./pocs/Win32Run.md) | Windows XP, 瀏覽器OS, 懷舊, 復古 | 開放 |
 | 22 | [GPU Hot 即時監控系統](./pocs/GpuHot.md) | GPU監控, 即時監控, 叢集管理, 性能追蹤, NVIDIA | 開放 |
 | 23 | [Wiki Docs 內部協作筆記](./pocs/WikiDocs.md) | 文件協作, 知識管理, Markdown, 內部共享 | 開放 |
-| 24 | [V平台 AI 數字人生成平台](./pocs/V-Platform.md) | AI, 數字人, 影片生成, 語音合成, 內容創作 | 2025/11/4關閉 |
+| 24 | [V平台 AI 數字人生成平台](./pocs/V-Platform.md) | AI, 數字人, 影片生成, 語音合成, 內容創作 | 開放 |
+| 25 | [BettaFish 輿情洞察系統](./pocs/BettaFish.md) | AI Agent, 輿情監測, 情感分析, 決策報告 | 開放 |
 
 
 </div>
