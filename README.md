@@ -33,6 +33,11 @@ POC 集合 - 包含文件、網址和相關資源
 | 23 | [Wiki Docs 內部協作筆記](./pocs/WikiDocs.md) | 文件協作, 知識管理, Markdown, 內部共享 | 開放 |
 | 24 | [V平台 AI 數字人生成平台](./pocs/V-Platform.md) | AI, 數字人, 影片生成, 語音合成, 內容創作 | 開放 |
 | 25 | [BettaFish 輿情洞察系統](./pocs/BettaFish.md) | AI Agent, 輿情監測, 情感分析, 決策報告 | 開放 |
+| 26 | [簡訊發送服務](./pocs/SMSService.md) | 簡訊服務, 通知系統, API 整合, 批次發送 | 開放 |
+| 27 | [印尼語即時翻譯機](./pocs/RealtimeTranslator.md) | 即時翻譯, 語音識別, 印尼語, OpenAI, WebRTC | 開放 |
+| 28 | [人臉遮蔽工具](./pocs/SimpleFaceBlur.md) | 隱私保護, 人臉識別, 圖片處理, AI 卡通化 | 開放 |
+| 29 | [AI 天氣圖卡生成器](./pocs/NanoBananaStudio.md) | 天氣圖卡, AI 圖片編輯, 3D 卡通, Gemini | 開放 |
+| 30 | [即時視覺 AI Agent 框架](./pocs/VisionAgents.md) | 視覺 AI, 即時互動, 多模型整合, WebRTC, AI Agent | 開放 |
 
 
 </div>
