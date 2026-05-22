@@ -41,4 +41,4 @@ https://line.me/ti/p/@153kdpxr
 - 關鍵字通知與報表頻率可依需求調整。
 
 
-![alt text](image-2.png)
+![alt text](../image/image-2.png)

@@ -1,5 +1,5 @@
 # POC: Short URL Extension (Chrome 擴充功能)
-![alt text](image-3.png)
+![alt text](../image/image-3.png)
 
 ## 概述
 提供以 CF Worker API 為後端的 Chrome 縮網址擴充功能，協助行銷與內容創作者快速生成可自訂的短網址，提升分享效率並集中管理歷史紀錄。
